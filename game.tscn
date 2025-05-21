@@ -1,6 +1,7 @@
-[gd_scene load_steps=3 format=3 uid="uid://b1lvcvqs44ytw"]
+[gd_scene load_steps=4 format=3 uid="uid://b1lvcvqs44ytw"]
 
 [ext_resource type="PackedScene" uid="uid://e2ui1hd17nm8" path="res://scene/player.tscn" id="1_80nbo"]
+[ext_resource type="Texture2D" uid="uid://cybs1cgkr6x5w" path="res://texture/background medievel.png" id="2_e2o6t"]
 
 [sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_e2o6t"]
 distance = -5.0
@@ -16,3 +17,15 @@ position = Vector2(-21, 4)
 shape = SubResource("WorldBoundaryShape2D_e2o6t")
 
 [node name="Camera2D" type="Camera2D" parent="."]
+
+[node name="world 1" type="Node2D" parent="."]
+
+[node name="ParallaxBackground" type="ParallaxBackground" parent="world 1"]
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="world 1/ParallaxBackground"]
+motion_mirroring = Vector2(958.2, 20)
+
+[node name="Sprite2D" type="Sprite2D" parent="world 1/ParallaxBackground/ParallaxLayer"]
+position = Vector2(-119, -26)
+scale = Vector2(0.624023, 0.624023)
+texture = ExtResource("2_e2o6t")
