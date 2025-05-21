@@ -1,0 +1,20 @@
+[gd_scene load_steps=2 format=3 uid="uid://btxj40qbpr3ap"]
+
+[ext_resource type="Texture2D" uid="uid://cybs1cgkr6x5w" path="res://texture/background medievel.png" id="1_iqgms"]
+
+[node name="world 1 scene" type="Node2D"]
+
+[node name="TileMap" type="TileMap" parent="."]
+format = 2
+
+[node name="world 1" type="Node2D" parent="."]
+
+[node name="ParallaxBackground" type="ParallaxBackground" parent="world 1"]
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="world 1/ParallaxBackground"]
+motion_mirroring = Vector2(958.2, 20)
+
+[node name="Sprite2D" type="Sprite2D" parent="world 1/ParallaxBackground/ParallaxLayer"]
+position = Vector2(-119, -26)
+scale = Vector2(0.624023, 0.624023)
+texture = ExtResource("1_iqgms")
