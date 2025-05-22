@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://5ymai4ityogt"
-path="res://.godot/imported/grass texture.png-838801bfd284674cf2cef64c855e1e4a.ctex"
+uid="uid://brmo3v37qj6jr"
+path="res://.godot/imported/parallax-01.png-355b65a00c97122db195250ab56829fd.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://texture/grass texture.png"
-dest_files=["res://.godot/imported/grass texture.png-838801bfd284674cf2cef64c855e1e4a.ctex"]
+source_file="res://background/parallax-01.png"
+dest_files=["res://.godot/imported/parallax-01.png-355b65a00c97122db195250ab56829fd.ctex"]
 
 [params]
 
