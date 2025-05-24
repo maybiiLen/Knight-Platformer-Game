@@ -9,6 +9,9 @@ distance = -5.0
 [node name="game" type="Node2D"]
 position = Vector2(-109, 19)
 
+[node name="world 1 scene" parent="." instance=ExtResource("2_e2o6t")]
+position = Vector2(17, -19)
+
 [node name="StaticBody2D" type="StaticBody2D" parent="."]
 scale = Vector2(1.05729, 1.05729)
 
@@ -26,6 +29,3 @@ offset = Vector2(0, -100)
 zoom = Vector2(1.8, 1.8)
 limit_left = -300
 limit_bottom = 100
-
-[node name="world 1 scene" parent="." instance=ExtResource("2_e2o6t")]
-position = Vector2(17, -19)
