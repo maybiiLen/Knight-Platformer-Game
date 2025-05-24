@@ -210,7 +210,8 @@ script = SubResource("GDScript_fvtld")
 texture_filter = 1
 position = Vector2(139, -170)
 sprite_frames = SubResource("SpriteFrames_b26j0")
-animation = &"idling"
+animation = &"running"
+frame_progress = 0.367652
 script = ExtResource("4_ct4mp")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
